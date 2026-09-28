@@ -107,8 +107,7 @@ Delta Live Tables records how many rows each expectation dropped in the pipeline
 
 A **Databricks job** ties the whole flow together. When a new CSV file is added, the trigger fires, the file is ingested into the source table, and the pipeline runs through Bronze, Silver, and Gold. No manual runs are needed.
 
-<!-- Add a job screenshot here once uploaded:
-![Databricks Job](images/job_run.png)
+![Databricks Job](Job.png)
 -->
 
 ---
