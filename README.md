@@ -2,8 +2,7 @@
 
 An automated **medallion pipeline** (Bronze → Silver → Gold) built with **Delta Live Tables and PySpark** that turns raw retail transaction data into clean, analytics-ready daily metrics. A Databricks job triggers whenever a new CSV file is added, so ingestion and processing run end to end with no manual steps.
 
-<!-- Add a pipeline graph screenshot here once uploaded:
-![Pipeline Graph](images/pipeline_graph.png)
+![Pipeline Graph](Pipeline.png)
 -->
 
 ---
